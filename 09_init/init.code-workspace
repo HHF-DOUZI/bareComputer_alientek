@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"imx6ul.h": "c",
+			"mcimx6y2.h": "c"
+		}
+	}
+}

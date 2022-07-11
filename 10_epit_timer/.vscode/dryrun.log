@@ -1,0 +1,18 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/dl/workspace/bareComputer/10_epit_timer'
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/start.o project/start.S
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/main.o project/main.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/bsp_clk.o bsp/clk/bsp_clk.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/bsp_led.o bsp/led/bsp_led.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/bsp_delay.o bsp/delay/bsp_delay.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/bsp_beep.o bsp/beep/bsp_beep.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/bsp_key.o bsp/key/bsp_key.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/bsp_gpio.o bsp/gpio/bsp_gpio.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/bsp_int.o bsp/int/bsp_int.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/exti.o bsp/exti/exti.c
+arm-linux-gnueabihf-gcc -Wall -nostdlib -c -O2   -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit -o obj/bsp_epit.o bsp/epit/bsp_epit.c
+arm-linux-gnueabihf-ld -Timx6ul.lds -o epit.elf obj/start.o obj/main.o obj/bsp_clk.o obj/bsp_led.o obj/bsp_delay.o obj/bsp_beep.o obj/bsp_key.o obj/bsp_gpio.o obj/bsp_int.o obj/exti.o obj/bsp_epit.o
+arm-linux-gnueabihf-objcopy -O binary -S epit.elf epit.bin
+arm-linux-gnueabihf-objdump -D -m arm epit.elf > epit.dis
+make: Leaving directory '/home/dl/workspace/bareComputer/10_epit_timer'
+ 

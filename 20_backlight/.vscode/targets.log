@@ -1,0 +1,740 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon Jul 11 10:57:33 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 64)
+CFILENDIR := main.c bsp_clk.c bsp_led.c bsp_delay.c bsp_beep.c bsp_key.c bsp_gpio.c bsp_int.c exti.c bsp_epit.c keyfilter.c bsp_uart.c ctype.c muldi3.c printf.c div64.c string.c vsprintf.c bsp_lcd.c bsp_lcdapi.c bsp_rtc.c bsp_i2c.c bsp_ap3216c.c bsp_spi.c imc20608.c ft5426.c gt911.c bsp_backlight.c
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/dl/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 2)
+TARGET = backlight
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /home/dl/workspace/bareComputer/20_backlight
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{}}
+# environment
+_ = /home/dl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from 'Makefile', line 63)
+SFILENDIR := start.S lib1funcs.S
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# makefile (from 'Makefile', line 67)
+COBJS :=  obj/main.o  obj/bsp_clk.o  obj/bsp_led.o  obj/bsp_delay.o  obj/bsp_beep.o  obj/bsp_key.o  obj/bsp_gpio.o  obj/bsp_int.o  obj/exti.o  obj/bsp_epit.o  obj/keyfilter.o  obj/bsp_uart.o  obj/ctype.o  obj/muldi3.o  obj/printf.o  obj/div64.o  obj/string.o  obj/vsprintf.o  obj/bsp_lcd.o  obj/bsp_lcdapi.o  obj/bsp_rtc.o  obj/bsp_i2c.o  obj/bsp_ap3216c.o  obj/bsp_spi.o  obj/imc20608.o  obj/ft5426.o  obj/gt911.o  obj/bsp_backlight.o
+# makefile (from 'Makefile', line 34)
+SRCDIRS := project bsp/clk bsp/led bsp/delay bsp/beep bsp/key bsp/gpio bsp/int bsp/exti bsp/epit bsp/keyfilter bsp/uart stdio/lib bsp/lcd bsp/rtc bsp/i2c bsp/ap3216c bsp/spi bsp/imc20608 bsp/ft5426 bsp/gt911 bsp/backlight
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 60)
+SFILES :=  project/start.S                        stdio/lib/lib1funcs.S                  
+# makefile (from 'Makefile', line 68)
+OBJS :=  obj/start.o  obj/lib1funcs.o  obj/main.o  obj/bsp_clk.o  obj/bsp_led.o  obj/bsp_delay.o  obj/bsp_beep.o  obj/bsp_key.o  obj/bsp_gpio.o  obj/bsp_int.o  obj/exti.o  obj/bsp_epit.o  obj/keyfilter.o  obj/bsp_uart.o  obj/ctype.o  obj/muldi3.o  obj/printf.o  obj/div64.o  obj/string.o  obj/vsprintf.o  obj/bsp_lcd.o  obj/bsp_lcdapi.o  obj/bsp_rtc.o  obj/bsp_i2c.o  obj/bsp_ap3216c.o  obj/bsp_spi.o  obj/imc20608.o  obj/ft5426.o  obj/gt911.o  obj/bsp_backlight.o
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/dl
+# environment
+SSH_CONNECTION = 192.168.1.3 8351 192.168.63.130 22
+# environment
+PATH = /home/dl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/opt/OpenWrt-Toolchain-ramips-for-mipsel_24kec+dsp-gcc-4.8-linaro_uClibc-0.9.33.2/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin
+# makefile (from 'Makefile', line 5)
+LD := arm-linux-gnueabihf-ld
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 70)
+VPATH := project bsp/clk bsp/led bsp/delay bsp/beep bsp/key bsp/gpio bsp/int bsp/exti bsp/epit bsp/keyfilter bsp/uart stdio/lib bsp/lcd bsp/rtc bsp/i2c bsp/ap3216c bsp/spi bsp/imc20608 bsp/ft5426 bsp/gt911 bsp/backlight
+# environment
+VSCODE_LOG_STACK = false
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/dl/workspace/bareComputer/20_backlight
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-bf6c2b1d-352c-4380-a4c5-ad59f8aa9f1c.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/dl
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = dl
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 66)
+SOBJS :=  obj/start.o  obj/lib1funcs.o
+# environment
+SHLVL = 3
+# makefile (from 'Makefile', line 4)
+CC := arm-linux-gnueabihf-gcc
+# makefile (from 'Makefile', line 9)
+LIBPATH := -lgcc -L /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.4
+# environment
+XDG_SESSION_ID = 27
+# environment
+USER = dl
+# makefile
+.DEFAULT_GOAL := backlight.bin
+# makefile (from 'Makefile', line 58)
+INCLUDE :=  -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit  -I bsp/keyfilter  -I bsp/uart  -I stdio/include  -I bsp/lcd  -I bsp/rtc  -I bsp/i2c  -I bsp/ap3216c  -I bsp/spi  -I bsp/imc20608  -I bsp/ft5426  -I bsp/gt911  -I bsp/backlight
+# makefile (from 'Makefile', line 61)
+CFILES :=  project/main.c  bsp/clk/bsp_clk.c  bsp/led/bsp_led.c  bsp/delay/bsp_delay.c  bsp/beep/bsp_beep.c  bsp/key/bsp_key.c  bsp/gpio/bsp_gpio.c  bsp/int/bsp_int.c  bsp/exti/exti.c  bsp/epit/bsp_epit.c  bsp/keyfilter/keyfilter.c  bsp/uart/bsp_uart.c  stdio/lib/ctype.c stdio/lib/muldi3.c stdio/lib/printf.c stdio/lib/div64.c stdio/lib/string.c stdio/lib/vsprintf.c  bsp/lcd/bsp_lcd.c bsp/lcd/bsp_lcdapi.c  bsp/rtc/bsp_rtc.c  bsp/i2c/bsp_i2c.c  bsp/ap3216c/bsp_ap3216c.c  bsp/spi/bsp_spi.c  bsp/imc20608/imc20608.c  bsp/ft5426/ft5426.c  bsp/gt911/gt911.c  bsp/backlight/bsp_backlight.c
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 11)
+INCDIRS := imx6ul bsp/clk bsp/led bsp/delay bsp/beep bsp/key bsp/gpio bsp/int bsp/exti bsp/epit bsp/keyfilter bsp/uart stdio/include bsp/lcd bsp/rtc bsp/i2c bsp/ap3216c bsp/spi bsp/imc20608 bsp/ft5426 bsp/gt911 bsp/backlight
+# default
+MAKE_COMMAND := make
+# environment
+STAGING_DIR = :/opt/mipsel/bin
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.1.3 8351 22
+# environment
+MAIL = /var/mail/dl
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 7)
+OBJDUMP := arm-linux-gnueabihf-objdump
+# environment
+BROWSER = /home/dl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# makefile (from 'Makefile', line 1)
+CROSS_COMPILE = arm-linux-gnueabihf-
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 6)
+OBJCOPY := arm-linux-gnueabihf-objcopy
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=86/1024=8%, Rehash=0, Collisions=29/131=22%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# bsp/imc20608 (device 2049, inode 2495867): 4 files, no impossibilities.
+# bsp/i2c (device 2049, inode 2495853): 4 files, no impossibilities.
+# . (device 2049, inode 2494905): 13 files, no impossibilities.
+# bsp/delay (device 2049, inode 2498004): 4 files, no impossibilities.
+# bsp/ap3216c (device 2049, inode 2495857): 4 files, no impossibilities.
+# bsp/exti (device 2049, inode 2495885): 4 files, no impossibilities.
+# bsp/key (device 2049, inode 2495825): 4 files, no impossibilities.
+# bsp/rtc (device 2049, inode 2495849): 4 files, no impossibilities.
+# bsp/uart (device 2049, inode 2495837): 4 files, no impossibilities.
+# bsp/clk (device 2049, inode 2497998): 4 files, no impossibilities.
+# bsp/keyfilter (device 2049, inode 2495833): 4 files, no impossibilities.
+# stdio/lib (device 2049, inode 2494958): 9 files, no impossibilities.
+# bsp/lcd (device 2049, inode 2495841): 7 files, no impossibilities.
+# bsp/gt911 (device 2049, inode 2495820): 4 files, no impossibilities.
+# bsp/epit (device 2049, inode 2495873): 4 files, no impossibilities.
+# bsp/backlight (device 2049, inode 2500234): 4 files, no impossibilities.
+# bsp/spi (device 2049, inode 2495861): 4 files, no impossibilities.
+# bsp/led (device 2049, inode 2500216): 4 files, no impossibilities.
+# project (device 2049, inode 2495801): 5 files, no impossibilities.
+# bsp/int (device 2049, inode 2495879): 4 files, no impossibilities.
+# bsp/gpio (device 2049, inode 2495829): 4 files, no impossibilities.
+# bsp/beep (device 2049, inode 2495892): 4 files, no impossibilities.
+# bsp/ft5426 (device 2049, inode 2500222): 4 files, no impossibilities.
+
+# 110 files, no impossibilities in 23 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+bsp_lcdapi.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bsp_beep.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/lib1funcs.o: lib1funcs.S
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'lib1funcs'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	$(CC) -Wall -nostdlib -fno-builtin -c -O2  $(INCLUDE) -o $@ $<
+
+# Not a target:
+bsp_epit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/div64.o: div64.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'div64'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/ctype.o: ctype.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'ctype'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+bsp_clk.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+obj/start.o: start.S
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'start'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	$(CC) -Wall -nostdlib -fno-builtin -c -O2  $(INCLUDE) -o $@ $<
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+obj/bsp_lcd.o: bsp_lcd.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_lcd'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 73):
+	
+
+# Not a target:
+string.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/exti.o: exti.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'exti'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+bsp_backlight.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bsp_key.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bsp_spi.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/gt911.o: gt911.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'gt911'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+div64.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/main.o: main.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'main'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+bsp_ap3216c.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+gt911.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-10 22:47:47.492298744
+#  File has been updated.
+#  Successfully updated.
+
+obj/bsp_lcdapi.o: bsp_lcdapi.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_lcdapi'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+bsp_led.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_beep.o: bsp_beep.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_beep'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+bsp_gpio.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_epit.o: bsp_epit.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_epit'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_clk.o: bsp_clk.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_clk'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+muldi3.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/imc20608.o: imc20608.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'imc20608'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+bsp_rtc.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_backlight.o: bsp_backlight.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_backlight'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_key.o: bsp_key.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_key'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/muldi3.o: muldi3.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'muldi3'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_spi.o: bsp_spi.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_spi'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_ap3216c.o: bsp_ap3216c.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_ap3216c'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+bsp_int.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_led.o: bsp_led.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_led'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+keyfilter.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_gpio.o: bsp_gpio.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_gpio'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+exti.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ctype.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+start.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bsp_i2c.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+ 
+#  File has not been updated.
+
+# Not a target:
+bsp_delay.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/keyfilter.o: keyfilter.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'keyfilter'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_rtc.o: bsp_rtc.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_rtc'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 86):
+	rm -rf $(TARGET).elf $(TARGET).dis $(TARGET).bin $(COBJS) $(SOBJS)
+	
+
+# Not a target:
+bsp_uart.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bsp_lcd.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+backlight.bin: obj/start.o obj/lib1funcs.o obj/main.o obj/bsp_clk.o obj/bsp_led.o obj/bsp_delay.o obj/bsp_beep.o obj/bsp_key.o obj/bsp_gpio.o obj/bsp_int.o obj/exti.o obj/bsp_epit.o obj/keyfilter.o obj/bsp_uart.o obj/ctype.o obj/muldi3.o obj/printf.o obj/div64.o obj/string.o obj/vsprintf.o obj/bsp_lcd.o obj/bsp_lcdapi.o obj/bsp_rtc.o obj/bsp_i2c.o obj/bsp_ap3216c.o obj/bsp_spi.o obj/imc20608.o obj/ft5426.o obj/gt911.o obj/bsp_backlight.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	$(LD) -Timx6ul.lds -o $(TARGET).elf $^	$(LIBPATH)
+	$(OBJCOPY) -O binary -S $(TARGET).elf $@
+	$(OBJDUMP) -D -m arm $(TARGET).elf > $(TARGET).dis
+
+# Not a target:
+imc20608.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_int.o: bsp_int.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_int'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+ft5426.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/ft5426.o: ft5426.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'ft5426'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+printf.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+vsprintf.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_i2c.o: bsp_i2c.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_i2c'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/string.o: string.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'string'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/vsprintf.o: vsprintf.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'vsprintf'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_delay.o: bsp_delay.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_delay'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+lib1funcs.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_uart.o: bsp_uart.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_uart'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/printf.o: printf.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'printf'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	$(CC) -march=armv7-a -mfpu=neon-vfpv4 -mfloat-abi=hard -Wall -nostdlib -fno-builtin -Wa,-mimplicit-it=thumb -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# files hash-table stats:
+# Load=67/1024=7%, Rehash=0, Collisions=6/192=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# General ('VPATH' variable) search path:
+# project:bsp/clk:bsp/led:bsp/delay:bsp/beep:bsp/key:bsp/gpio:bsp/int:bsp/exti:bsp/epit:bsp/keyfilter:bsp/uart:stdio/lib:bsp/lcd:bsp/rtc:bsp/i2c:bsp/ap3216c:bsp/spi:bsp/imc20608:bsp/ft5426:bsp/gt911:bsp/backlight
+
+# strcache buffers: 1 (0) / strings = 159 / storage = 1635 B / avg = 10 B
+# current buf: size = 8162 B / used = 1635 B / count = 159 / avg = 10 B
+
+# strcache performance: lookups = 325 / hit rate = 51%
+# hash-table stats:
+# Load=159/8192=2%, Rehash=0, Collisions=29/325=9%
+# Finished Make data base on Mon Jul 11 10:57:33 2022
+
+ 

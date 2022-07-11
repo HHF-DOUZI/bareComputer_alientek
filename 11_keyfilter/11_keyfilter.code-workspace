@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"exti.h": "c",
+			"main.h": "c",
+			"imx6ul.h": "c"
+		}
+	}
+}

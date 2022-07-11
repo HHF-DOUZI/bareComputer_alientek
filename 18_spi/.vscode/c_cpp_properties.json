@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/bsp/clk",
+                "${workspaceFolder}/bsp/delay",
+                "${workspaceFolder}/bsp/led",
+                "${workspaceFolder}/bsp/beep",
+                "${workspaceFolder}/bsp/gpio",
+                "${workspaceFolder}/bsp/exti",
+                "${workspaceFolder}/bsp/int",
+                "${workspaceFolder}/bsp/epit",
+                "${workspaceFolder}/bsp/keyfilter",
+                "${workspaceFolder}/bsp/uart",
+                "${workspaceFolder}/bsp/lcd",
+                "${workspaceFolder}/bsp/rtc",
+                "${workspaceFolder}/bsp/i2c",
+                "${workspaceFolder}/bsp/spi",
+                "${workspaceFolder}/bsp/ap3216c",
+                "${workspaceFolder}/bsp/imc20608",
+                "${workspaceFolder}/imx6ul",
+                "${workspaceFolder}/project",
+                "${workspaceFolder}/bsp/key",
+                "${workspaceFolder}/stdio/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}

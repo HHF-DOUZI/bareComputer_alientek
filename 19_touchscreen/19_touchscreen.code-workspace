@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"imx6ul.h": "c",
+			"bsp_gpio.h": "c",
+			"bsp_lcd.h": "c",
+			"stdio.h": "c",
+			"bsp_delay.h": "c",
+			"bsp_int.h": "c",
+			"bsp_i2c.h": "c",
+			"gt911.h": "c"
+		}
+	}
+}

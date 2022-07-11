@@ -1,0 +1,539 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.1
+ 
+# Built for x86_64-pc-linux-gnu
+ 
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+ 
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
+# This is free software: you are free to change and redistribute it.
+ 
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+ 
+# Make data base, printed on Wed Jun 22 09:42:37 2022
+ 
+
+# Variables
+ 
+
+ 
+# automatic
+ 
+<D = $(patsubst %/,%,$(dir $<))
+ 
+# automatic
+ 
+?F = $(notdir $?)
+ 
+# makefile (from 'Makefile', line 38)
+ 
+CFILENDIR := main.c bsp_clk.c bsp_led.c bsp_delay.c bsp_beep.c bsp_key.c bsp_gpio.c bsp_int.c exti.c bsp_epit.c
+ 
+# default
+ 
+.SHELLFLAGS := -c
+ 
+# environment
+ 
+VSCODE_AGENT_FOLDER = /home/dl/.vscode-server
+ 
+# environment
+ 
+VSCODE_LOG_NATIVE = false
+ 
+# makefile (from 'Makefile', line 2)
+ 
+TARGET = epit
+ 
+# automatic
+ 
+?D = $(patsubst %/,%,$(dir $?))
+ 
+# automatic
+ 
+@D = $(patsubst %/,%,$(dir $@))
+ 
+# automatic
+ 
+@F = $(notdir $@)
+ 
+# default
+ 
+MAKE_VERSION := 4.1
+ 
+# makefile
+ 
+CURDIR := /home/dl/workspace/bareComputer/10_epit_timer
+ 
+# makefile
+ 
+SHELL = /bin/sh
+ 
+# environment
+ 
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{}}
+ 
+# environment
+ 
+_ = /home/dl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
+ 
+# makefile (from 'Makefile', line 1)
+ 
+MAKEFILE_LIST :=  Makefile
+ 
+# makefile (from 'Makefile', line 37)
+ 
+SFILENDIR := start.S
+ 
+# 'override' directive
+ 
+GNUMAKEFLAGS := 
+ 
+# environment
+ 
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+ 
+# makefile (from 'Makefile', line 41)
+ 
+COBJS :=  obj/main.o  obj/bsp_clk.o  obj/bsp_led.o  obj/bsp_delay.o  obj/bsp_beep.o  obj/bsp_key.o  obj/bsp_gpio.o  obj/bsp_int.o  obj/exti.o  obj/bsp_epit.o
+ 
+# makefile (from 'Makefile', line 20)
+ 
+SRCDIRS := project bsp/clk bsp/led bsp/delay bsp/beep bsp/key bsp/gpio bsp/int bsp/exti bsp/epit
+ 
+# environment
+ 
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+ 
+# environment
+ 
+VSCODE_VERBOSE_LOGGING = true
+ 
+# makefile (from 'Makefile', line 34)
+ 
+SFILES :=  project/start.S                  
+ 
+# makefile (from 'Makefile', line 42)
+ 
+OBJS :=  obj/start.o  obj/main.o  obj/bsp_clk.o  obj/bsp_led.o  obj/bsp_delay.o  obj/bsp_beep.o  obj/bsp_key.o  obj/bsp_gpio.o  obj/bsp_int.o  obj/exti.o  obj/bsp_epit.o
+ 
+# environment
+ 
+LESSOPEN = | /usr/bin/lesspipe %s
+ 
+# environment
+ 
+VSCODE_CWD = /home/dl
+ 
+# environment
+ 
+SSH_CONNECTION = 192.168.63.1 4438 192.168.63.130 22
+ 
+# environment
+ 
+PATH = /home/dl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/opt/OpenWrt-Toolchain-ramips-for-mipsel_24kec+dsp-gcc-4.8-linaro_uClibc-0.9.33.2/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin
+ 
+# makefile (from 'Makefile', line 5)
+ 
+LD := arm-linux-gnueabihf-ld
+ 
+# environment
+ 
+XDG_RUNTIME_DIR = /run/user/1000
+ 
+# makefile (from 'Makefile', line 44)
+ 
+VPATH := project bsp/clk bsp/led bsp/delay bsp/beep bsp/key bsp/gpio bsp/int bsp/exti bsp/epit
+ 
+# environment
+ 
+VSCODE_LOG_STACK = false
+ 
+# default
+ 
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+ 
+# environment
+ 
+LS_COLORS = 
+ 
+# automatic
+ 
+%F = $(notdir $%)
+ 
+# environment
+ 
+VSCODE_PIPE_LOGGING = true
+ 
+# environment
+ 
+PWD = /home/dl/workspace/bareComputer/10_epit_timer
+ 
+# environment
+ 
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-4693fa31-b9f8-4115-b870-901ec4b5bf26.sock
+ 
+# automatic
+ 
+*D = $(patsubst %/,%,$(dir $*))
+ 
+# environment
+ 
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+ 
+# environment
+ 
+HOME = /home/dl
+ 
+# environment
+ 
+LESSCLOSE = /usr/bin/lesspipe %s %s
+ 
+# environment
+LOGNAME = dl
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 40)
+SOBJS :=  obj/start.o
+# environment
+SHLVL = 3
+# makefile (from 'Makefile', line 4)
+CC := arm-linux-gnueabihf-gcc
+# environment
+XDG_SESSION_ID = 2
+# environment
+USER = dl
+# makefile
+.DEFAULT_GOAL := epit.bin
+# makefile (from 'Makefile', line 32)
+INCLUDE :=  -I imx6ul  -I bsp/clk  -I bsp/led  -I bsp/delay  -I bsp/beep  -I bsp/key  -I bsp/gpio  -I bsp/int  -I bsp/exti  -I bsp/epit
+# makefile (from 'Makefile', line 35)
+CFILES :=  project/main.c  bsp/clk/bsp_clk.c  bsp/led/bsp_led.c  bsp/delay/bsp_delay.c  bsp/beep/bsp_beep.c  bsp/key/bsp_key.c  bsp/gpio/bsp_gpio.c  bsp/int/bsp_int.c  bsp/exti/exti.c  bsp/epit/bsp_epit.c
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 9)
+INCDIRS := imx6ul bsp/clk bsp/led bsp/delay bsp/beep bsp/key bsp/gpio bsp/int bsp/exti bsp/epit
+# default
+MAKE_COMMAND := make
+# environment
+STAGING_DIR = :/opt/mipsel/bin
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.63.1 4438 22
+# environment
+MAIL = /var/mail/dl
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 7)
+OBJDUMP := arm-linux-gnueabihf-objdump
+# environment
+BROWSER = /home/dl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# makefile (from 'Makefile', line 1)
+CROSS_COMPILE = arm-linux-gnueabihf-
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 6)
+OBJCOPY := arm-linux-gnueabihf-objcopy
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# variable set hash-table stats:
+# Load=85/1024=8%, Rehash=0, Collisions=29/130=22%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 2120321): 15 files, no impossibilities.
+# bsp/delay (device 2049, inode 2248970): 4 files, no impossibilities.
+# bsp/exti (device 2049, inode 2248961): 4 files, no impossibilities.
+# bsp/key (device 2049, inode 2248976): 4 files, no impossibilities.
+# bsp/clk (device 2049, inode 2248967): 4 files, no impossibilities.
+# bsp/epit (device 2049, inode 2248941): 4 files, no impossibilities.
+# bsp/led (device 2049, inode 2248973): 4 files, no impossibilities.
+# project (device 2049, inode 2248951): 5 files, no impossibilities.
+# bsp/int (device 2049, inode 2248958): 4 files, no impossibilities.
+# bsp/gpio (device 2049, inode 2248979): 4 files, no impossibilities.
+# bsp/beep (device 2049, inode 2248964): 4 files, no impossibilities.
+
+# 56 files, no impossibilities in 11 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+bsp_beep.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+epit.bin: obj/start.o obj/main.o obj/bsp_clk.o obj/bsp_led.o obj/bsp_delay.o obj/bsp_beep.o obj/bsp_key.o obj/bsp_gpio.o obj/bsp_int.o obj/exti.o obj/bsp_epit.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	$(LD) -Timx6ul.lds -o $(TARGET).elf $^
+	$(OBJCOPY) -O binary -S $(TARGET).elf $@
+	$(OBJDUMP) -D -m arm $(TARGET).elf > $(TARGET).dis
+
+# Not a target:
+bsp_epit.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bsp_clk.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/start.o: start.S
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'start'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 47):
+	
+
+obj/exti.o: exti.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'exti'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bsp_key.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/main.o: main.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'main'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 11:14:54.327397202
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+bsp_led.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_beep.o: bsp_beep.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_beep'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+bsp_gpio.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_epit.o: bsp_epit.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_epit'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_clk.o: bsp_clk.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_clk'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_key.o: bsp_key.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_key'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+bsp_int.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/bsp_led.o: bsp_led.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_led'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_gpio.o: bsp_gpio.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_gpio'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# Not a target:
+exti.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+.DEFAULT:
+ 
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+start.S:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bsp_delay.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 60):
+	rm -rf $(TARGET).elf $(TARGET).dis $(TARGET).bin $(COBJS) $(SOBJS)
+	
+
+obj/bsp_int.o: bsp_int.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_int'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+obj/bsp_delay.o: bsp_delay.c
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'bsp_delay'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CC) -Wall -nostdlib -c -O2  $(INCLUDE) -o $@ $<
+	
+
+# files hash-table stats:
+# Load=29/1024=3%, Rehash=0, Collisions=0/85=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# General ('VPATH' variable) search path:
+# project:bsp/clk:bsp/led:bsp/delay:bsp/beep:bsp/key:bsp/gpio:bsp/int:bsp/exti:bsp/epit
+
+# strcache buffers: 1 (0) / strings = 78 / storage = 739 B / avg = 9 B
+# current buf: size = 8162 B / used = 739 B / count = 78 / avg = 9 B
+
+# strcache performance: lookups = 152 / hit rate = 48%
+# hash-table stats:
+# Load=78/8192=1%, Rehash=0, Collisions=14/152=9%
+# Finished Make data base on Wed Jun 22 09:42:37 2022
+
+ 

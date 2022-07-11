@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"imx6ul.h": "c",
+			"stdio.h": "c",
+			"bsp_gpio.h": "c",
+			"bsp_lcdapi.h": "c",
+			"bsp_lcd.h": "c",
+			"font.h": "c",
+			"mcimx6y2.h": "c"
+		}
+	}
+}
